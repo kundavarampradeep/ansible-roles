@@ -25,7 +25,7 @@
 
 - name: copy roboshop.conf
   ansible.builtin.template:  #here we called templates through actual values of vars
-    src: roboshop.conf.j2
+    src: roboshop.conf
     dest: /etc/nginx/default.d/roboshop.conf
   notify:   # handlers: whenever there is any change in configuration this will notify to restart ansible
   - restart nginx
