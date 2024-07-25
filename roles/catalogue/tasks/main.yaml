@@ -23,8 +23,7 @@
     name: common
     tasks_from: mongorepo-schema
 
-- name: Setup systemd
+- name: Start application
   ansible.builtin.import_role:
     name: common
     tasks_from: systemd-setup
-
