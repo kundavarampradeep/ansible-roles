@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.weldevops.online
+USER_HOST: user.weldevops.online
+CART_HOST: cart.weldevops.online
+SHIPPING_HOST: shipping.weldevops.online
+PAYMENT_HOST: payment.weldevops.online
